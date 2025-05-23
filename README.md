@@ -66,9 +66,9 @@ cmake --build build
 ./sort -a quick -s 20
 ```
 
-2. **File Input with Visualization**
+2. **File Input without Visualization**
 ```bash
-./sort -a merge -i input.txt -v -o results.log
+./sort -a merge -i input.txt --off-visualize -o results.log
 ```
 
 3. **Custom Shell Sort**
